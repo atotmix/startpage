@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(37, 32, 47);
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.main-bookmarks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(47, 41, 60);
+    padding: 10px;
+    border-radius: 2%;
+}
+
+.link {
+    margin: 0 5px;
+    padding: 10px 20px;
+    color: rgb(228, 237, 255);
+    border-radius: 2px;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    transition: color 0.2s ease-in-out;
+}
+.link:hover {
+    color: rgb(250, 252, 255);
+}
+.typing-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px;
+    background-color: rgb(47, 41, 60);
+    color: white;
+    text-align: left;
+    font-size: 16px;
+    min-height: 20px;
+}
